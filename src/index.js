@@ -3,17 +3,15 @@ import example from './images/services3.png';
 
 class Game {
     name = 'Violin Charades'
-}
-const myGame = new Game()
+};
 
-// создаем параграф
+const myGame = new Game();
+
 const p = document.createElement('p')
 p.textContent = `I like ${myGame.name}.`
 
-// создаем элемент заголовка
-const heading = document.createElement('h1')
-heading.textContent = 'Как интересно!'
+const heading = document.createElement('h1');
+heading.textContent = 'Как интересно!';
 
-// добавляем параграф и заголовок в DOM
-const root = document.querySelector('#root')
-root.append(heading, p)
+const root = document.querySelector('#root');
+root.append(heading, p);
